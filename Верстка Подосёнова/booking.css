@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'Montserrat-regular';
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url(fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-light';
+    src: url(fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-semibold';
+    src: url(fonts/Montserrat-SemiBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: block;
+}
+
+header {
+    background-image: url(img/header_bg.png);
+    width: 100%;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.head {
+    width: 80%;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.test-0-nav-1,
+.test-0-nav-2,
+.test-0-nav-3,
+.test-0-nav-4 {
+    color: #FFF;
+    font-size: 28px;
+    font-family: 'Montserrat-bold';
+}
+.container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.booking {
+    width: 100%;
+    height: 588px;
+    background-color: #2B061C;
+    display: flex;
+    justify-content: center;
+}
+
+#booking  .text1 {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 45px;
+    font-family: 'Montserrat-bold';
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 2%;
+}
+
+#booking .name {
+    width: 100%;
+    margin-bottom: 2%;
+    color: #FFF;
+    font-size: 30px;
+    font-family: 'Montserrat-regular';
+}
+#booking .info2 {
+    margin-left: 3%;
+}
+.test-5-fc,
+.test-5-fcategory,
+.test-5-genre,
+.test-5-dd,
+.test-5-dt,
+.test-5-at,
+.test-5-fp{
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Montserrat-regular';
+}
+
+
+.poisk {
+    width: 100%;
+    height: 590px;
+    background: #2B061C;
+    display: flex;
+    justify-content: center;
+}
+
+#poisk .text1 {
+    margin-top: 5%;
+    margin-bottom: 4%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 45px;
+    font-family: 'Montserrat-bold';
+}
+
+.form2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form_poisk {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.test-5-name,
+.test-5-last,
+.test-5-dob,
+.test-5-doc
+ {
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 310px;
+    height: 80px;
+    outline: none;
+    border-radius: 15px;
+    padding: 5%;
+    font-family: 'Montserrat-bold';
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    border: none;
+    margin-left: 5%;
+}
+
+
+#poisk .text2 {
+    margin-bottom: 3%;
+    margin-left: 7%;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Montserrat-regular';
+}
+
+.bu {
+    display: flex;
+    justify-content: end;
+}
+
+#poisk .test-5-add,
+.test-5-remove {
+    width: 450px;
+    height: 80px;
+    margin-left: 1%;
+}
+
+#poisk .btn {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: #641CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat-bold';
+    font-size: 1.25rem;
+    color: white;
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+.final{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.test-5-book{
+    width: 450px;
+    height: 80px;
+}
+.test-5-price {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+    font-family: 'Montserrat-bold';
+}
+#footer {
+    width: 100%;
+    height: 380px;
+    background: #313131;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .text1 {
+    font-family: 'Montserrat-bold';
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+.test-0-phone {
+    font-family: 'Montserrat-bold';
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    padding: 2%;
+}
+
+.menu {
+    font-family: 'Montserrat-bold';
+    font-size: 1.75rem;
+    text-align: center;
+    color: white;
+}
+
+#footer nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+}

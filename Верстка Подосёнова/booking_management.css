@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Montserrat-regular';
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url(fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-light';
+    src: url(fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-semibold';
+    src: url(fonts/Montserrat-SemiBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: block;
+}
+
+header {
+    background-image: url(img/header_bg.png);
+    width: 100%;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.head {
+    width: 80%;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.test-0-nav-1,
+.test-0-nav-2,
+.test-0-nav-3,
+.test-0-nav-4 {
+    color: #FFF;
+    font-size: 28px;
+    font-family: 'Montserrat-bold';
+}
+.container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.booking_management {
+    width: 100%;
+    height: 475px;
+    background-color: #2B061C;
+    display: flex;
+    justify-content: center;
+}
+
+#booking_management  .test-6-code {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 45px;
+    font-family: 'Montserrat-bold';
+}
+.info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#booking_management .info1 {
+    margin-top: 3%;
+}
+.info2{
+    margin-left: 7%;
+}
+.test-6-tp,
+.test-6-fc,
+.test-6-ac,
+.test-6-fcategory,
+.test-6-genre,
+.test-6-dd,
+.test-6-dt,
+.test-6-at,
+.test-6-name,
+.test-6-last,
+.test-6-dob,
+.test-6-doc,
+.test-6-ts,
+.test-6-bs
+{
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Montserrat-regular';
+}
+#booking_management .btn {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: #641CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat-bold';
+    font-size: 1.25rem;
+    color: white;
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+
+.test-5-book{
+    width: 450px;
+    height: 80px;
+}
+#footer {
+    width: 100%;
+    height: 380px;
+    background: #313131;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .text1 {
+    font-family: 'Montserrat-bold';
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+.test-0-phone {
+    font-family: 'Montserrat-bold';
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    padding: 2%;
+}
+
+.menu {
+    font-family: 'Montserrat-bold';
+    font-size: 1.75rem;
+    text-align: center;
+    color: white;
+}
+
+#footer nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+}
